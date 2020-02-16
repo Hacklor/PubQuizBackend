@@ -10,8 +10,10 @@ This is the backend that supports the PubQuiz
 ## Setup
 
 Install dependencies for Java and plugins for `asdf`.
+
 ```bash
-brew install jq
+brew install jq         // OSX
+sudo apt install jq     // Ubuntu
 asdf plugin-add java
 asdf plugin-add maven
 ```
